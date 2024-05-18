@@ -1,6 +1,6 @@
 @use 'variables' as *; //this puts all the variables in the global namespace.
 @use 'atoms';
-//@use 'molecules';
+@use 'molecules';
 //@use 'organisms' as o;
 
 * {
@@ -20,8 +20,8 @@ body {
   padding: 1em;
 }
 
-h2 ~ p {
-  color: $text-light;
+header, h2, h2 ~ p {
+  background-color: $background-color1;
 }
 
 section {

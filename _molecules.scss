@@ -6,18 +6,17 @@
 [role="banner"] {
   > h1 {
     // notice we have to reference the 'atoms' namespace to find our mixins.
-    @include atoms.uppercase($text-light);
+    @include atoms.uppercase($text-dark);
   }
+  background-color: #D9F0FF;
 }
 .summary {
-  @include atoms.uppercase($text-light);
+  @include atoms.uppercase($text-dark);
   padding: 15% 0;
   p:last-child {
     @include atoms.divider;
   }
-  a {
-    color: $text-light; //in this case the link wants to be light instead of the default dark
-  }
+  background-color: #D9F0FF;
 }
 .preamble {
   background: rgba(255, 255, 255, 0.9);
