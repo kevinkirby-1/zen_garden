@@ -1,29 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+h1,
 h2,
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
+  font-family: Dangrek, "arial narrow", Arial, Verdana, sans-serif;
   margin: 0;
 }
 
 h1 {
-  background: #ea2e49;
-  color: #fff;
-  display: inline-block;
+  color: #000;
   font-weight: normal;
+  font-size: 2.75rem;
   margin-bottom: 1em;
   padding: 0.5em 1em;
 }
 
 h2 {
-  color: #fff;
-  font-weight: 900; /* Heavy */
-  font-size: 6em;
+  color: #000;
+  font-size: 2rem;
   letter-spacing: 1px;
   line-height: 1em;
 }
 
 h3 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
   font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
@@ -39,7 +39,7 @@ h4 {
 }
 
 p {
-  font-family: verdana, arial, sans-serif;
+  font-family: Karla, verdana, arial, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   padding: 0.5em 0;
@@ -48,7 +48,7 @@ p {
 
 a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
+  color: #000;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
@@ -57,22 +57,35 @@ a:hover {
   border-color: #ea2e49;
 }
 
+/*h3:nth-of-type(1), h3:nth-of-type(2) {
+  background-color: $heading-background-color1;
+}
+h3:nth-of-type(3), h3:nth-of-type(4) {
+  background-color: $heading-background-color2;
+}
+h3:nth-of-type(5) {
+  background-color: $heading-background-color3;
+}*/
 * {
   box-sizing: border-box;
 }
 
 html {
-  background-color: #daede2;
+  background-color: #D9F0FF;
   padding: 5%;
 }
 
 body {
-  font-family: verdana, arial, sans-serif;
-  font-size: 85%;
-  color: #333;
-  background-color: #77c4d3;
+  font-family: Karla, verdana, arial, sans-serif;
+  font-size: 20px;
+  color: #000;
+  background-color: #427AA1;
   margin: 0;
   padding: 1em;
+}
+
+h2 ~ p {
+  color: #fff;
 }
 
 section {
@@ -113,7 +126,53 @@ section {
 }
 
 .text-dark {
-  background-color: #333;
+  background-color: #000;
+}
+
+.heading-background-color1 {
+  background-color: #AB9DFF;
+}
+
+.heading-background-color2 {
+  background-color: #60FFBC;
+}
+
+.heading-background-color3 {
+  background-color: #FF8383;
+}
+
+.background-color1 {
+  background-color: #D9F0FF;
+}
+
+.background-color2 {
+  background-color: #427AA1;
+  color: #fff;
+}
+
+.background-color3 {
+  background-color: #064789;
+  color: #fff;
+}
+
+.background-color4 {
+  background-color: #FFD6BA;
+}
+
+.text-light {
+  background-color: #fff;
+}
+
+.sun-color {
+  background-color: #FFCD19;
+}
+
+.fish-color {
+  background-color: #FF4C00;
+}
+
+.bubble-color {
+  background-color: #D9D9D9;
 }
 
 .element {
@@ -121,12 +180,27 @@ section {
   margin: 0.5em;
   padding: 1em;
 }
+.element h1 {
+  background-color: #FFCD19;
+}
+.element h2 {
+  background-color: #fff;
+}
+.element h3:nth-of-type(1) {
+  background-color: #AB9DFF;
+}
+.element h3:nth-of-type(2) {
+  background-color: #60FFBC;
+}
+.element h3:nth-of-type(3) {
+  background-color: #FF8383;
+}
 
 .uppercase {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #333;
+  color: #000;
 }
 
 .uppercase-light {
@@ -135,5 +209,3 @@ section {
   text-transform: uppercase;
   color: #fff;
 }
-
-/*# sourceMappingURL=style-pattern.css.map */
