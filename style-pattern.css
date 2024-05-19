@@ -57,15 +57,6 @@ a:hover {
   border-color: #ea2e49;
 }
 
-/*h3:nth-of-type(1), h3:nth-of-type(2) {
-  background-color: $heading-background-color1;
-}
-h3:nth-of-type(3), h3:nth-of-type(4) {
-  background-color: $heading-background-color2;
-}
-h3:nth-of-type(5) {
-  background-color: $heading-background-color3;
-}*/
 [role=banner] {
   background-color: #D9F0FF;
 }
@@ -240,3 +231,15 @@ section {
   text-transform: uppercase;
   color: #fff;
 }
+
+#wireframes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#wireframes img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style-pattern.css.map */

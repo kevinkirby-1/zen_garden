@@ -119,3 +119,13 @@ section {
 .uppercase-light {
   @include atoms.uppercase($text-light);
 }
+
+#wireframes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+    max-width: 100%;
+  }
+}
