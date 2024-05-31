@@ -23,6 +23,29 @@
   margin-top: 1em;
   padding-top: 1.5em;
 }
+
+@mixin section-heading($background-color: clear, $font-color: $text-dark) {
+  color: $font-color;
+  background-color: $background-color;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  max-width: fit-content;
+}
+@mixin set-font-colors($font-color: $text-dark, $anchor-underline: $underline-border-dark) {
+  color: $font-color;
+  a {
+    color: $font-color;
+    border-bottom: 1px solid $anchor-underline;
+    text-decoration: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  a:hover {
+    border-color: $accent1;
+  }
+}
+
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h1,
 h2,
@@ -66,7 +89,7 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid $underline-border-dark;
   color: $text-dark;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;

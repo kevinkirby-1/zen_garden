@@ -3,7 +3,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Dangrek, "arial narrow", Arial, Verdana, sans-serif;
+  font-family: Dangrek, "Arial Narrow", Arial, Verdana, sans-serif;
   margin: 0;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
@@ -39,7 +39,7 @@ h4 {
 }
 
 p {
-  font-family: Karla, verdana, arial, sans-serif;
+  font-family: Karla, Verdana, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   padding: 0.5em 0;
@@ -47,7 +47,7 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   color: #000;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -56,4 +56,3 @@ a {
 a:hover {
   border-color: #ea2e49;
 }
-
