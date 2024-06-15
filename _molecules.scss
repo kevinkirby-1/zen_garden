@@ -44,6 +44,7 @@
   @include atoms.set-font-colors($text-dark, $underline-border-dark);
   h3 {
     @include atoms.section-heading($heading-background-color1);
+    border-radius: 1em;
   }
 }
 .participation, .benefits {
@@ -51,6 +52,7 @@
   @include atoms.set-font-colors($text-light, $underline-border-light);
   h3 {
     @include atoms.section-heading($heading-background-color2);
+    border-radius: 1em;
   }
 }
 .requirements {
@@ -58,6 +60,7 @@
   @include atoms.set-font-colors($text-light, $underline-border-light);
   h3 {
     @include atoms.section-heading($heading-background-color3);
+    border-radius: 0.5em;
   }
   [role="contentinfo"] {
     background-color: $background-color4;

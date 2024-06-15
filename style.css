@@ -145,6 +145,7 @@ a:hover {
   padding-bottom: 0.3em;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  border-radius: 1em;
 }
 
 .participation, .benefits {
@@ -169,6 +170,7 @@ a:hover {
   padding-bottom: 0.3em;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  border-radius: 1em;
 }
 
 .requirements {
@@ -193,6 +195,7 @@ a:hover {
   padding-bottom: 0.3em;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  border-radius: 0.5em;
 }
 .requirements [role=contentinfo] {
   background-color: #FFD6BA;
